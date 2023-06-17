@@ -15,6 +15,7 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --share=network
+  - --persist=.config/tvbrowser
 
 modules:
   - name: openjdk
@@ -49,7 +50,7 @@ modules:
         dest: ant
       - type: file
         url: https://www.tvbrowser.org/data/uploads/1372016422809_543/NewsPlugin.jar
-        sha256: e57a32a6e31dd80141136489e847440aebeae83f351cb2eebbd52803d91c2803
+        sha256: 3d93a44eb4b74d501bed9069c0dcad65a99b88a35d9a13da117d8ecf21420754
       - type: script
         dest-filename: tvbrowser.sh
         commands:
