@@ -2,7 +2,15 @@ Index: tvbrowser/deployment/linux/tvbrowser.appdata.xml
 ===================================================================
 --- tvbrowser/deployment/linux/tvbrowser.appdata.xml	(Revision 9604)
 +++ tvbrowser/deployment/linux/tvbrowser.appdata.xml	(Arbeitskopie)
-@@ -10,6 +10,9 @@
+@@ -4,6 +4,7 @@
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0</project_license>
+   <name>TV-Browser</name>
++  <developer_name>TV-Browser Team</developer_name>
+   <summary>A free EPG</summary>
+   <description>
+     <p>
+@@ -10,19 +11,26 @@
        TV-Browser is a java-based TV guide which can be easily extended with lots of plugins. It is designed to look like your paper TV guide.
      </p>
    </description>
@@ -11,14 +19,26 @@ Index: tvbrowser/deployment/linux/tvbrowser.appdata.xml
 +  </content_rating>
    <screenshots>
      <screenshot type="default">
-       <image>http://www.tvbrowser.org/images/stories/screenshots/linux_1.png</image>
-@@ -24,5 +27,8 @@
-       <image>http://www.tvbrowser.org/images/stories/screenshots/linux_4.png</image>
+-      <image>http://www.tvbrowser.org/images/stories/screenshots/linux_1.png</image>
++      <image>https://www.tvbrowser.org/images/stories/screenshots/linux_1.png</image>
+     </screenshot>
+     <screenshot>
+-      <image>http://www.tvbrowser.org/images/stories/screenshots/linux_2.png</image>
++      <image>https://www.tvbrowser.org/images/stories/screenshots/linux_2.png</image>
+     </screenshot>
+     <screenshot>
+-      <image>http://www.tvbrowser.org/images/stories/screenshots/linux_3.png</image>
++      <image>https://www.tvbrowser.org/images/stories/screenshots/linux_3.png</image>
+     </screenshot>
+     <screenshot>
+-      <image>http://www.tvbrowser.org/images/stories/screenshots/linux_4.png</image>
++      <image>https://www.tvbrowser.org/images/stories/screenshots/linux_4.png</image>
      </screenshot>
    </screenshots>
+-  <url type="homepage">http://tvbrowser.org/</url>
 +  <releases>
 +    <release version="4.2.7" date="2022-12-28" />
 +  </releases>
-   <url type="homepage">http://tvbrowser.org/</url>
++  <url type="homepage">https://tvbrowser.org/</url>
++  <launchable type="desktop-id">org.tvbrowser.TVBrowser.desktop</launchable>
  </component>
-
